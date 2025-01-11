@@ -1,0 +1,24 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.div {
+    display: flex;
+}
+
+header div form input {
+    padding: 8px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
