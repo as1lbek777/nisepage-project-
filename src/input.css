@@ -36,12 +36,28 @@ div .div .ul {
 div .div .img img {
     width: 25px;
     height: 25px;
-    color: red;
+    color: #838383;
     margin-left: 515px;
 }
 
 header div form input {
     padding: 8px 10px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-right: none;
+    margin-left: 100px;
+    background-color: #FFFFFF;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+header div form button {
+    margin-left: -5px;
+    padding: 8px;
+    border-left: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
