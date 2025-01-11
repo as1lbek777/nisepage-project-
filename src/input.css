@@ -13,8 +13,22 @@ ul li {
     list-style: none;
 }
 
-.div {
+div .div {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+div .div .ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+div .div .img img {
+    width: 25px;
+    height: 25px;
+    color: red;
 }
 
 header div form input {
