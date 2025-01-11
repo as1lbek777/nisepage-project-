@@ -17,7 +17,6 @@ div .div {
     padding: 16px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: #f2f2f2;
 }
 
