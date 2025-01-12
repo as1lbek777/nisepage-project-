@@ -13,41 +13,6 @@ ul li {
     list-style: none;
 }
 
-div .div {
-    padding: 13px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f2f2f2;
-}
-
-div .div .nise {
-    margin-left: 0;
-}
-
-div .div .ul {
-    display: flex;
-    gap: 0.8rem;
-    font-size: 13px;
-    align-items: center;
-    margin-left: 32%;
-}
-
-div .div .img img {
-    width: 20px;
-    height: 20px;
-    color: #838383;
-    align-items: center;
-    justify-content: flex;
-}
-
-div .div .ul li:hover {
-    width: 35px;
-    text-align: center;
-    justify-content: space-between;
-    background-color: aquamarine;
-}
-
 header .div2 form {
     margin-left: 0;
 }
@@ -121,4 +86,9 @@ main section .div3 .h2h {
     font-size: 4rem;
     letter-spacing: 1px;
     font-family: sans-serif;
+}
+
+main section .div3 .p{
+    margin-top: 30px;
+    color: #999999;
 }
