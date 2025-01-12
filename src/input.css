@@ -13,15 +13,11 @@ ul li {
     list-style: none;
 }
 
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
 div .div {
     padding: 13px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #f2f2f2;
 }
 
@@ -31,9 +27,9 @@ div .div .nise {
 
 div .div .ul {
     display: flex;
-    gap: 0.6rem;
+    gap: 0.8rem;
+    font-size: 13px;
     align-items: center;
-    justify-content: space-between;
     margin-left: 32%;
 }
 
@@ -41,7 +37,15 @@ div .div .img img {
     width: 20px;
     height: 20px;
     color: #838383;
-    margin-left: 590px;
+    align-items: center;
+    justify-content: flex;
+}
+
+div .div .ul li:hover {
+    width: 35px;
+    text-align: center;
+    justify-content: space-between;
+    background-color: aquamarine;
 }
 
 header .div2 form {
@@ -49,7 +53,7 @@ header .div2 form {
 }
 
 header .div2 form input {
-    padding: 12px 2px;
+    padding: 12px 0;
     border-right: none;
     margin-left: 100px;
     background-color: #FFFFFF;
@@ -61,12 +65,15 @@ header .div2 form input {
 
 header .div2 form input::placeholder {
     color: #838383;
-    padding: 15px;
-    font-size: 16px;
 }
 
 header .div2 form input:focus {
     outline: none;
+}
+
+header .div2 form input {
+    color: #838383;
+    padding-left: 8px;
 }
 
 header .div2 form button {
@@ -95,4 +102,23 @@ header .div2 .icon {
     margin-right: 115px;
     font-size: 1.8rem;
     cursor: pointer;
+}
+
+main section {
+    text-align: center;
+}
+
+main section .div3 .h5 {
+    margin: 65px auto 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1px;
+}
+
+main section .div3 .h2h {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    font-family: sans-serif;
 }
