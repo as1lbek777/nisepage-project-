@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+IS:wght@100..400&family=Quando&family=Rye&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 * {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Montserrat", serif;
 }
 
 a {
@@ -85,10 +86,54 @@ main section .div3 .h2h {
     font-weight: 700;
     font-size: 4rem;
     letter-spacing: 1px;
-    font-family: sans-serif;
 }
 
 main section .div3 .p{
     margin-top: 30px;
     color: #999999;
+    margin-bottom: 35px;
+    letter-spacing: 0.3px;
+}
+
+main section .div3 .a1{
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+main section .div3 .a1:hover{
+    color: #2CCC77;
+    transition: all 0.3s ease-in;
+}
+
+main section .div3 .a1 span .span_i{
+    color: #2CCC77;
+    font-size: 2.5rem;
+}
+main section .div3 .h6{
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+main section .div4{
+    display: flex;
+}
+main section .div4 div img{
+    width: 481px;
+    height: 528px;
+    margin: 100px auto 0 -135px;
+}
+main section .div4 div .h2a{
+    padding-top: 8px;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background-color: #2CCC77;
+    color: white;
+    margin: 100px auto 0 0;
 }
