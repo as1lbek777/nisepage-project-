@@ -144,17 +144,14 @@ h2
 {
     margin-left: 65px;
     background-color: rgb(70, 212, 70);
-    border: 1px solid black;
+    border: 1px solid rgb(70, 212, 70);
     cursor: pointer;
     height: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
     width: 80%;
     font-size: 1rem;
     transition: all 0.5s ease-in-out;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 10px;
 }
 
 .button1:hover
@@ -166,7 +163,7 @@ h2
 .button2
 {
     background-color: rgba(56, 56, 231, 0.844);
-    border: 1px solid black;
+    border: 1px solid rgba(56, 56, 231, 0.844);
     cursor: pointer;
     height: 40px;
     margin-top: 15px;
@@ -175,16 +172,21 @@ h2
     font-weight: 500;
     transition: all 0.5s ease-in-out;
     margin-left: 65px;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 10px;
 }
 
 .button2:hover
 {
     background-color: rgba(15, 15, 223, 0.842);
     color: white;
+}
+
+.message{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: green;
 }
 
 .flex2
@@ -222,6 +224,41 @@ h2
     border-radius: 8px;
     box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
     z-index: 100;
+}
+
+.card2{
+    margin-top: 15px;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px black;
+}
+
+.card2 p{
+    font-size: 1rem;
+    font-weight: normal;
+    color: black;
+}
+
+.card2 p span{
+    color: rgb(12, 195, 202);
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    font-style: italic;
+}
+.close{
+    position: absolute;
+    top: 170px;
+    right: 110px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    cursor: pointer;
+    height: 40px;
+    width: 10%;
+    font-size: 1rem;
+    border-radius: 10px;
 }
 
 .overlay

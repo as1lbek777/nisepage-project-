@@ -21,3 +21,23 @@ overlay.addEventListener('click', openModal);
 
 const API = 'https://reqres.in/api/users';
 
+const userCard = document.querySelector(".card2");
+const message = document.querySelector(".message");
+
+let userArr = [];  // Foydalanuvchilar jurnali
+
+// Fetch api methods post
+const createUser = async (user) => {
+    const inputName = document.getElementById("name").value
+    const inputJob = document.getElementById("job").value
+
+
+    if (inputName === '' && inputJob === '') {
+        message.textContent = "Ismingiz bilan Kasbingizni kiriting?";
+    }
+
+    fetch(API, {
+        method: "POST",
+        headers: { 'Content-Type': "application/json" },
+    })
+}
