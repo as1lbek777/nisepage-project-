@@ -159,13 +159,13 @@ h2
 
 .button1:hover
 {
-    background-color: green;
+    background-color: rgb(21, 203, 21);
     color: white;
 }
 
 .button2
 {
-    background-color: rgba(65, 65, 242, 0.674);
+    background-color: rgba(56, 56, 231, 0.844);
     border: 1px solid black;
     cursor: pointer;
     height: 40px;
@@ -183,7 +183,7 @@ h2
 
 .button2:hover
 {
-    background-color: blue;
+    background-color: rgba(15, 15, 223, 0.842);
     color: white;
 }
 

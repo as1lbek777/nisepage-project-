@@ -16,3 +16,8 @@ for (const btn of btnOpen) {
     btn.addEventListener('click', closeModal);
 }
 btnclose.addEventListener('click', openModal);
+overlay.addEventListener('click', openModal);
+
+
+const API = 'https://reqres.in/api/users';
+
