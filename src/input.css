@@ -1,141 +1,238 @@
- @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    margin: 0 auto;
-    padding: 0;
+*
+{
     box-sizing: border-box;
-    font-family: "Raleway", serif;
-}
-a{
-    text-decoration: none;
-}
-ul li{
-    list-style-type: none;
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.navbar{
-    height: 80px;
-}
-.flex{
+.flex
+{
+    align-items: center;
     display: flex;
-    padding: 20px;
+    justify-content: center;
 }
 
-.flex a{
-    margin-left: 0;
-}
-
-.flex .a3{
-    margin-right: 0;
-}
-
-.flex a{
-    font-size: 2rem;
-    color: #BBBBBB;
-    font-weight: 700;
-}
-
-.flex .a3 i{
-    font-size: 2rem;
-    color: green;
-    font-weight: 400;
-}
-
-.flex .a3 i:hover{
-    color: blue;
-}
-.flex .a3 i:active{
-    color: red;
-}
-main section img{
-    width: 100%;
+body
+{
+    background-color: rgba(245, 245, 245, 0.8);
     height: 100vh;
-    position: relative;
+    width: 100%;
 }
-main section .div2 {
-    position: absolute;
-    top: 150px;
-    left: 120px;
+
+.container
+{
+    margin: 0 auto;
+    max-width: 1200px;
 }
-main section .div2 h1{
-    font-size: 6rem;
-    font-weight: 400;
-    color: white;
-    letter-spacing: 1.5px;
+
+.card
+{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px black;
+    height: 380px;
+    width: 650px;
 }
-main section .div2 h1 b{
-    letter-spacing: 1.5px;
+
+h2
+{
+    font-size: 1.6rem;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
 }
-main section .div2 p{
-    color: white;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    font-weight: 600;
+
+.div
+{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
-main section .div2 button{
-    margin-top: 50px;
-    padding: 10px 30px;
-    color: white;
-    background-color: #E34F1A;
+
+#ID
+{
+    border-bottom: 1.5px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    height: 35px;
+    margin-top: 30px;
+    width: 80%;
+    outline: none;
+    transition: all 0.3s ease-in-out;
     font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 1.5px;
+    padding-left: 15px;
+}
+
+#ID::placeholder
+{
+    font-size: 1rem;
+}
+
+#ID:focus::placeholder
+{
+    color: green;
+}
+
+#ID:focus
+{
+    border-bottom: 1.5px solid green;
+}
+
+#name
+{
+    border-bottom: 1.5px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    height: 35px;
+    width: 80%;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+    padding-left: 15px;
+}
+
+#name::placeholder
+{
+    font-size: 1rem;
+}
+
+#name:focus::placeholder
+{
+    color: green;
+}
+
+#name:focus
+{
+    border-bottom: 1.5px solid green;
+}
+
+#job
+{
+    padding-left: 15px;
+    border-bottom: 1.5px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    height: 35px;
+    width: 80%;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+}
+
+#job::placeholder
+{
+    font-size: 1rem;
+}
+
+#job:focus::placeholder
+{
+    color: green;
+}
+
+#job:focus
+{
+    border-bottom: 1.5px solid green;
+}
+
+.button1
+{
+    margin-left: 65px;
+    background-color: rgb(70, 212, 70);
+    border: 1px solid black;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 50px;
+    width: 80%;
+    font-size: 1rem;
+    transition: all 0.5s ease-in-out;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.button1:hover
+{
+    background-color: green;
+    color: white;
+}
+
+.button2
+{
+    background-color: rgba(65, 65, 242, 0.674);
+    border: 1px solid black;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 15px;
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+    margin-left: 65px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.button2:hover
+{
+    background-color: blue;
+    color: white;
+}
+
+.flex2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.close-modal
+{
+    position: absolute;
+    top: -1.5rem;
+    right: 0.7rem;
+    font-size: 3.5rem;
+    column-rule: #333;
     cursor: pointer;
     border: none;
+    background: none;
+    transform: translate(-50%, 50%);
 }
-main section .div2 button:hover{
-    background-color: #d34512;
-    color: rgb(249, 229, 229);
-}
-main section div .freepik{
-    color: white;
+
+.modal
+{
     position: absolute;
-    top: 660px;
-    left: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: wheat;
+    padding: 5rem;
+    border-radius: 8px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
-main section div .freepik a{
-    color: white;
-    text-decoration: underline;
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+    z-index: 0;
 }
-main section div .freepik a:hover{
-    color: red;
-    font-size: 1rem;
-    font-weight: 700;
-}
-main .section1 .div3{
-    margin-top: -3.5px;
-    height: 150px;
-    background-color: rgb(253,113,89);
-}
-main .section1 .div3 p{
-    font-size: 14px;
-    text-align: center;
-    justify-content: center;
-    padding: 55px;
-    color: white;
-}
-footer div{
-    height: 100px;
-    background-color: rgb(51,51,51);
-}
-footer div p{
-    font-weight: 600;
-    font-size: 13px;
-    padding-top: 45px;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-footer div p a{
-    color: #A1E5F4;
-    text-decoration: underline;
-}
-footer div p a:hover{
-    color: #BBBBBB;
-    text-decoration: none;
-}
- 
