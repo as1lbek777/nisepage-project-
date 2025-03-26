@@ -186,7 +186,9 @@ h2
     margin-left: 50px;
     font-size: 1rem;
     font-weight: 600;
-    color: green;
+    color: red;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
 }
 
 .flex2

@@ -15,12 +15,14 @@
         <div class="card">
             <h2>Foydalanuvchi qo'shish / Tahrirlash</h2>
 
-            <input type="number" id="ID" placeholder="ID (Tahrirlash uchun)">
-            <input type="text" id="name" placeholder="Ismingizni kiriting">
-            <input type="text" id="job" placeholder="Kasbingizni kiriting">
+            <div class="div">
+                <input type="number" id="ID" placeholder="ID (Tahrirlash uchun)">
+                <input type="text" id="name" placeholder="Ismingizni kiriting">
+                <input type="text" id="job" placeholder="Kasbingizni kiriting">
+            </div>
 
-            <button class="button1 show-modal" type="submit">➕ Foydalanuvchi qo'shish</button>
-            <button class="button2 show-modal" type="submit">📝 Foydalanuvchini tahrirlash</button>
+            <button id="createUser" class="button1 showModal" type="submit">➕ Foydalanuvchi qo'shish</button>
+            <button id="tahrirUser" class="button2 showModal" type="submit">📝 Foydalanuvchini tahrirlash</button>
 
             <p class="message"></p>
         </div>
@@ -31,7 +33,6 @@
             <div class="flex2">
                 <h2>📑 Qo'shilgan foydalanuvchilar</h2>
                 <div class="card2"></div>
-                <button class="close">❌</button>
             </div>
         </div>
 
