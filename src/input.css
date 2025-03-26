@@ -201,9 +201,9 @@ h2
 .close-modal
 {
     position: absolute;
-    top: -1.5rem;
-    right: 0.7rem;
-    font-size: 3.5rem;
+    top: -2rem;
+    right: -0.2rem;
+    font-size: 3rem;
     column-rule: #333;
     cursor: pointer;
     border: none;
@@ -217,12 +217,11 @@ h2
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
     background-color: wheat;
-    padding: 5rem;
+    padding: 2.5rem;
     border-radius: 8px;
     box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
-    z-index: 1;
+    z-index: 100;
 }
 
 .overlay
